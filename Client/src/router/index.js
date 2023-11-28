@@ -11,11 +11,6 @@ const router = createRouter({
       name: 'main',
       component: TheMainView
     }, 
-    {
-      path: '/todo',
-      name: 'todo',
-      component: () => import("@/views/TheTodoView.vue"),
-    },
     {      
       path: "/kakaoMap",
       name: "kakaoMap",
